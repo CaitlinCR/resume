@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
 
-		gtag('config', 'UA-122191211-1');
+	  gtag('config', 'UA-122191211-1');
 
-		$language = $_REQUEST["language"];
+	  $language = $_REQUEST["language"];
 		$default_header="index.html";
 
 		switch ($language) {
@@ -48,9 +48,9 @@
 <body>
 	<header id="myHeader" class="site-header">
 		<div class="dropdown">
-			<button class="dropbtn"><img src="images/pt.jpg"></button>
+			<button class="dropbtn"><img src="images/en.jpg"></button>
 			<div class="dropdown-content">
-				<a href="index_en.html?language=en"><img src="images/en.jpg"></a>
+				<a href="index.html?language=pt"><img src="images/pt.jpg"></a>
 			</div>
 		</div>
 	</header>
@@ -62,11 +62,11 @@
 					<div class="headerLeftSide col-md-12 col-sm-6 col-xs-12">
 						<img src="images/avatar.jpg" alt="" class="avatar">
 						<h1 class="name">Cátia Campos</h1>
-						<h3 class="regency">Programadora</h3>
+						<h3 class="regency">Developer</h3>
 					</div>
 					<section class="nino-aboutMe col-md-12 col-sm-6 col-xs-12">
 						<h2 class="nino-sectionHeading">
-							<i class="mdi mdi-account nino-icon"></i>Sobre mim
+							<i class="mdi mdi-account nino-icon"></i>About Me
 							<ul style="display: inline-block;">
 								<a href="https://www.linkedin.com/in/catiarcampos/" target="_blank" title="LinkedIn"><img src="images/ico/li.png"
 									alt="" height="30" width="30" align="center"></a>
@@ -77,17 +77,17 @@
 										</ul>
 									</h2>
 									<div class="nino-sectionContent">
-										<h2 class="nino-sectionHeading">Habilidades de comunicação:</h2>
-										<li>Espírito de equipa e capacidade de trabalhar com outras pessoas.</li>
-										<li>Boa capacidade de comunicação, tanto dentro como fora da equipa, quando necessário.</li>
-										<li>Capacidade de explicar conceitos e ajudar outras pessoas a resolver problemas.</li>
-										<h2 class="nino-sectionHeading">Habilidades de organização:</h2>
-										<li>Sentido de responsabilidade para com a equipa.</li>
-										<li>Ênfase no planeamento oportuno e completo dos projetos, de forma a evitar execuções precipitadas.</li>
+										<h2 class="nino-sectionHeading">Communication skills:</h2>
+										<li>Team spirit and ability to work with others.</li>
+										<li>Good communication skills, both inside and outside the team when necessary.</li>
+										<li>Ability to explain concepts and help other people to solve problems.</li>
+										<h2 class="nino-sectionHeading">Organization skills:</h2>
+										<li>Sense of responsibility within the team.</li>
+										<li>Emphasis on the timely and complete planning of projects, in order to avoid startling execution.</li>
 										<br>
 									</div>
 									<h2 class="nino-sectionHeading">
-										<i class="mdi mdi-contact-mail nino-icon"></i>Contactos
+										<i class="mdi mdi-contact-mail nino-icon"></i>Contact
 									</h2>
 									<ul class="nino-listWithIcon">
 										<li layout="row">
@@ -115,7 +115,7 @@
 					<main id="nino-mainContent">
 						<section>
 							<h2 class="nino-sectionHeading">
-								<i class="mdi mdi-email-variant nino-icon"></i>Apresentação
+								<i class="mdi mdi-email-variant nino-icon"></i>Presentation
 							</h2>
 							<div class="nino-sectionContent">
 								<article id="nino-coverLetter">
@@ -125,8 +125,8 @@
 										</div>
 										<div class="fsr date"><br><br>
 											<script language="javascript" type="text/javascript">
-												var weekdays = new Array("Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sabado");
-												var months = new Array("Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Aug", "Set", "Oct", "Nov", "Dez")
+												var weekdays = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+												var months = new Array("Jan", "Fev", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
 												var currentdate = new Date();
 												var weeknumber = currentdate.getDay();
 												var day = currentdate.getDate();
@@ -137,15 +137,15 @@
 										</div>
 									</div>
 									<div class="nino-coverLetterContent">
-										<p>O meu nome é Cátia Campos e estou a submeto o meu curriculum para a vossa uma vez que gostei muito do vosso trabalho e da vossa empresa e por isso candidato-me a esta vaga.</p>
-										<p>Como pode ser visto na análise do meu currículo, tenho formação Nível 5 em Tecnologias e Programação de Sistemas de Informação, que direcionei para desenvolvimento web, tanto como utilizador como profissional.</p>
-										<p>Sou fluente a Inglês, o que acredito ser fundamental para trabalhar na área de IT. A experiência que adquiri nos últimos anos tem servido para me tornar cada vez melhor como profissional e oferecer o melhor para a minha equipa e empresa.</p>
-										<p>Adquiri fortes habilidades de programação em PHP e WordPress, ao desenvolver um site de Economia onde iniciei a minha carreira profissional, e algum conhecimento em Javascript como hobby e profissionalmente sempre que necessário. Fui responsável pela área de desenvolvimento, gestão e depuração de erros do site da empresa ECO, experiência adquirida desde setembro de 2017 a setembro de 2020. No curso onde me encontro inserida de momento também aprendi as linguagens C++, ASP.NET e JAVA. </p>
-										<p>Estando ciente das funções e responsabilidades inerentes à função a que candidato, considero a mesma uma excelente oportunidade para melhorar as minhas competências e habilidades, e ao mesmo tempo ajudar a melhorar a empresa a todo e qualquer nível.</p>
-										<p>Obrigado pelo interesse que o meu pedido pode ter despertado e espero ser contactado em breve para mostrar um pouco mais de mim, apresento os meus melhores votos.</p>
+										<p>Me, Cátia Campos, submit my CV for a job opportunity in your company. I am excited to see you work for your company and hope to be invited to an interview.</p>
+										<p>As can be seen from the analysis of my curriculum, I have a background in Information Systems Technologies and Programming that I directed for web development, both as a home and professional user.</p>
+										<p>I have fluent English, which I believe is crucial to working in IT. The experience I have gained over the past 2 years has served to become better as a professional, and to offer the best for my current company.</p>
+										<p>I gained strong programming skills in PHP and WordPress, developing an Economy website where I started my professional career. And some knowledge in Javascript as a hobby and professionally whenever needed. I have been responsible for the area of ​​development, management and debugging of site errors in the company where I am at this moment, experience gained since September 2017 at September 2020. In the course where I am currently inserted I also learned the languages ​​C ++, ASP.NET and JAVA.</p>
+										<p>Being aware of the roles and responsibilities of the role in question, I believe this is an excellent opportunity to improve my skills and abilities, while at the same time improving the company at any level.</p>
+										<p>Thank you for the interest my request may have and I hope to be contacted soon, I offer my best wishes.</p>
 									</div>
 									<div class="nino-coverLetterFooter"><br>
-										<div>Atenciosamente,</div>
+										<div>Sincerely,</div>
 										<div class="nino-sign">Cátia Campos</div>
 									</div>
 								</article>
@@ -157,18 +157,47 @@
 					<main id="nino-mainContent">
 						<section>
 							<h2 class="nino-sectionHeading">
-								<i class="mdi mdi-briefcase nino-icon"></i>Experiencia profissional
+								<i class="mdi mdi-school nino-icon"></i>Education
 							</h2>
 							<div class="nino-sectionContent">
 								<div class="inner">
 									<article>
-										<h3 class="nino-articleTitle">Programadora web</h3>
+										<h3 class="nino-articleTitle">Multimedia Technique</h3>
+										<div class="nino-articleMeta">
+											<span><i class="mdi mdi-hospital-building nino-icon"></i>Instituto de Emprego e Formação
+												Profissional (Level 4)</span>
+											<span><i class="mdi mdi-calendar-text nino-icon"></i>2014-2017</span>
+										</div>
+										<div class="post-taglist" style="line-height:75%;">
+											<br>
+											<a class="post-tag js-gps-track" title="" rel="tag">HTML</a>
+											<a class="post-tag js-gps-track" title="" rel="tag">CSS</a>
+											<a class="post-tag js-gps-track" title="" rel="tag">JavaScript</a>
+											<a class="post-tag js-gps-track" title="" rel="tag">PHP</a>
+											<a class="post-tag js-gps-track" title="" rel="tag">Adobe Illustrator</a>
+											<a class="post-tag js-gps-track" title="" rel="tag">Adobe InDesign</a>
+											<a class="post-tag js-gps-track" title="" rel="tag">Adobe Photoshop</a>
+											<a class="post-tag js-gps-track" title="" rel="tag">Adobe Premiere</a>
+											<a class="post-tag js-gps-track" title="" rel="tag">3D Studio Max</a>
+										</div>
+									</article>
+								</div>
+							</div>
+						</section>
+						<section>
+							<h2 class="nino-sectionHeading">
+								<i class="mdi mdi-briefcase nino-icon"></i>Work Experience
+							</h2>
+							<div class="nino-sectionContent">
+								<div class="inner">
+									<article>
+										<h3 class="nino-articleTitle">Developer</h3>
 										<div class="nino-articleMeta">
 											<span><i class="mdi mdi-domain nino-icon"></i><a href="https://eco.sapo.pt/ficha-tecnica/" target="_black">ECO - Economia Online</a></span>
-											<span><i class="mdi mdi-calendar-text nino-icon"></i>2018 – 2020</span>
+											<span><i class="mdi mdi-calendar-text nino-icon"></i>September 2018 – Current</span>
 										</div>
 										<div class="nino-articleContent">
-											Representante da empresa na área tecnológica e responsável pela área de desenvolvimento, gestão do site e depuração de erros.
+											Technology representative at ECO, responsible for web development, website management and debugging.
 										</div>
 										<div class="post-taglist" style="line-height:75%;">
 											<br>
@@ -187,13 +216,13 @@
 										</div>
 									</article>
 									<article>
-										<h3 class="nino-articleTitle">Backend Developer</h3>
+										<h3 class="nino-articleTitle">Wordpress Developer</h3>
 										<div class="nino-articleMeta">
-											<span><i class="mdi mdi-domain nino-icon"></i>WidgiLabs - ECO</span>
-											<span><i class="mdi mdi-calendar-text nino-icon"></i>2017 –2018</span>
+											<span><i class="mdi mdi-domain nino-icon"></i>WidgiLabs</span>
+											<span><i class="mdi mdi-calendar-text nino-icon"></i>September 2017 – September 2018</span>
 										</div>
 										<div class="nino-articleContent">
-											Representante da empresa Widgilabs no cliente, jornal ECO, como backend developer.
+											Widgilabs company representative in the client ECO, responsible for web development, site management and debugging.
 										</div>
 										<div class="post-taglist" style="line-height:75%;">
 											<br>
@@ -210,13 +239,14 @@
 										</div>
 									</article>
 									<article>
-										<h3 class="nino-articleTitle">Programadora web</h3>
+										<h3 class="nino-articleTitle">Web Designer</h3>
 										<div class="nino-articleMeta">
 											<span><i class="mdi mdi-domain nino-icon"></i>Coworklisboa</span>
-											<span><i class="mdi mdi-calendar-text nino-icon"></i>2016 - 2017</span>
+											<span><i class="mdi mdi-calendar-text nino-icon"></i>2016 - 2017 / 9 meses
+	</span>
 										</div>
 										<div class="nino-articleContent">
-											Estágio curricular de 3 meses, criação de uma página web para a empresa.
+											Web site development, written from scratch, to dynamize and organize the new area in the company.
 										</div>
 										<div class="post-taglist" style="line-height:75%;">
 											<br>
@@ -230,31 +260,22 @@
 											<a class="post-tag js-gps-track" title="" rel="tag">Adobe Premiere</a> 
 										</div>
 									</article>
-								</div>
-							</div>
-						</section>
-						<section>
-							<h2 class="nino-sectionHeading">
-								<i class="mdi mdi-school nino-icon"></i>Educação e Formação
-							</h2>
-							<div class="nino-sectionContent">
-								<div class="inner">
 									<article>
-										<h3 class="nino-articleTitle">Técnico especialista em tecnologias e programação de
-											sistemas de informação</h3>
+										<h3 class="nino-articleTitle">Designer</h3>
 										<div class="nino-articleMeta">
-											<span><i class="mdi mdi-hospital-building nino-icon"></i>Citeforma (Nível 5)</span>
-											<span><i class="mdi mdi-calendar-text nino-icon"></i>2020 - Presente</span>
+											<span><i class="mdi mdi-domain nino-icon"></i>Coworklisboa</span>
+											<span><i class="mdi mdi-calendar-text nino-icon"></i>2016 / 3 meses
+											</span>
+										</div>
+										<div class="nino-articleContent">
+											I worked at CoworkLisboa as a designer, an area that is of interest to me. At this stage I was able to develop a
+											creative side that was previously unknown to me.
 										</div>
 										<div class="post-taglist" style="line-height:75%;">
 											<br>
-											<a class="post-tag js-gps-track" title="" rel="tag">HTML</a>
-											<a class="post-tag js-gps-track" title="" rel="tag">CSS</a>
-											<a class="post-tag js-gps-track" title="" rel="tag">JavaScript</a>
-											<a class="post-tag js-gps-track" title="" rel="tag">PHP</a>
-											<a class="post-tag js-gps-track" title="" rel="tag">SQL</a>
-											<a class="post-tag js-gps-track" title="" rel="tag">C++</a>
-											<a class="post-tag js-gps-track" title="" rel="tag">ASP.NET</a>
+											<a class="post-tag js-gps-track" title="" rel="tag">Adobe Photoshop</a>
+											<a class="post-tag js-gps-track" title="" rel="tag">Adobe Illustrator</a>
+											<a class="post-tag js-gps-track" title="" rel="tag">3D Studio Max</a>
 										</div>
 									</article>
 								</div>
@@ -267,10 +288,10 @@
 						<section class="nino-mySkill">
 							<h2 class="nino-sectionHeading">
 								<i class="mdi mdi-trophy-award nino-icon"></i>
-								Nível de Competências
+								Skills
 							</h2>
 							<ul class="nino-listWithIcon">
-								<h5 class="nino-articleTitle" style="padding-top: 2%">Profisional</h5>
+								<h5 class="nino-articleTitle" style="padding-top: 2%">Professional</h5>
 								<li layout="row">
 									<div class="fg">
 										<p>WordPress</p>
@@ -360,7 +381,7 @@
 									</div>
 								</li>
 								<br>
-								<h5 class="nino-articleTitle" style="padding-top: 2%">Pessoal</h5>
+								<h5 class="nino-articleTitle" style="padding-top: 2%">Personal</h5>
 								<li layout="row">
 									<div class="fg">
 										<p>Team spirit</p>
@@ -420,17 +441,17 @@
 						</section>
 						<section class="nino-mySkill">
 							<h2 class="nino-sectionHeading" style="padding-top: 2%">
-								<i class="mdi mdi-web nino-icon"></i>Competências linguísticas
+								<i class="mdi mdi-web nino-icon"></i>Languages
 							</h2>
 							<ul class="nino-listWithIcon">
 								<li layout="row">
 									<div class="fg">
-										<p>Português &nbsp;&nbsp; <b>Nativo</b></p>
+										<p>Portuguese &nbsp;&nbsp; <b>Native</b></p>
 									</div>
 								</li>
 								<li layout="row">
 									<div class="fg">
-										<p>Inglês &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Fluente</b></p>
+										<p>English &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Fluent</b></p>
 									</div>
 								</li>
 							</ul>
@@ -438,9 +459,8 @@
 					</main>
 				</div>
 			</div>
-				
 			<nav id="mainMenu">
-				<ul>				
+				<ul>
 					<li><a href="#nino-rightSide"><i class="mdi mdi-email-variant nino-icon"></i></a></li>
 					<li><a href="#nino-rightSideBottom"><i class="mdi mdi-briefcase nino-icon"></i></a></li>
 					<li><a href="#nino-rightSideBottomSkills"><i class="mdi mdi-trophy-award nino-icon"></i></a></li>
@@ -451,7 +471,7 @@
 
     <!-- Scroll to top
     ================================================== -->
-	<a href="#" id="nino-scrollToTop">Voltar ao Topo</a>
+	<a href="#" id="nino-scrollToTop">Go to Top</a>
 	
 	<!-- javascript -->
 	<script type="text/javascript" src="js/jquery.min.js"></script>
